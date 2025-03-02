@@ -655,7 +655,7 @@ def get_current_weather(city_name):
 
 
 def get_coordinates(city_name):
-    api_key = 'f78c9ba981bf4f9444334130cf2fe598'
+    api_key = 'xxxxxxxxxxxxxxxxxxxxxx'
     url = f'http://api.openweathermap.org/geo/1.0/direct?q={city_name}&limit=1&appid={api_key}'
     response = requests.get(url)
     if response.status_code == 200:

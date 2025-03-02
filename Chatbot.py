@@ -631,7 +631,7 @@ def get_current_weather(city_name):
     if lat is None or lon is None:
         return "I'm sorry, but I couldn't find the coordinates for the city you mentioned. Could you check the name and try again?"
 
-    api_key = 'f78c9ba981bf4f9444334130cf2fe598'
+    api_key = 'xxxxxxxxxxxxxxxxxxxxxxx'
     url = f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}&units=metric&lang=en'
 
     response = requests.get(url)

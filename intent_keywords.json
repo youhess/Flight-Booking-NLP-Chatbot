@@ -1,0 +1,42 @@
+{
+    "greet": {
+    "phrases": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "greetings"],
+    "threshold": 2  
+    }, 
+    "discoverability": {
+        "phrases": ["help", "features", "options", "capabilities", "do", "services"],
+        "requires": ["what", "can", "do"]
+    },
+    "smalltalk": {
+        "phrases": ["what's up", "how are you", "how's it going", "how have you been"],
+        "threshold": 2  
+    },
+    "question_answering": {
+        "phrases": ["what", "how", "when", "where", "why", "who", "which", "whom"],
+        "position": "start" 
+    },
+    "book_flight": {
+        "phrases": ["book", "reserve", "schedule", "booking"],
+        "requires": ["flight", "ticket", "travel"] 
+    },
+    "search_flight": {
+        "phrases": ["search", "find", "look", "show", "available", "flights"],
+        "requires": ["flight", "ticket", "travel", "from","to"]
+    },
+    "cancel_booking": {
+        "phrases": ["cancel", "delete", "remove", "stop"],
+        "requires": ["booking", "reservation", "flight"]
+    },
+    "view_bookings": {
+    "phrases": ["view", "show", "check", "see"],
+    "requires": ["booking", "reservation", "flights", "my"]
+    },
+     "weather": {
+        "phrases": ["weather", "temperature", "forecast", "hot", "cold", 
+    "warm", "chilly", "humid", "rain", "sunny", "cloudy",
+    "climate", "degrees"],
+        "requires": ["in", "at", "for", "today", "now", "like", "outside",
+    "current", "right now"]
+    }
+     
+}

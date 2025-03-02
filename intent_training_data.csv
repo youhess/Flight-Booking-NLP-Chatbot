@@ -1,0 +1,165 @@
+﻿Sentence,Intent
+I want to reserve a flight seat,book_flight
+Book a flight to Paris for me,book_flight
+Help me book a plane ticket,book_flight
+Can you help me book a ticket?,book_flight
+Find me a flight for next Monday,book_flight
+I need to book a flight to Tokyo,book_flight
+I want to book a flight,book_flight
+Please book a flight for me,book_flight
+I'd like to arrange a flight to Rome,book_flight
+Can you reserve a seat on a plane to Berlin?,book_flight
+Schedule a flight to New York,book_flight
+I need to fly to Madrid next week,book_flight
+Book me a ticket to Sydney,book_flight
+I have to get a flight to Dubai,book_flight
+Could you help me set up a flight to Toronto?,book_flight
+Show me flights from London to Berlin,search_flight
+Find available flights to Los Angeles,search_flight
+List flights to New York City,search_flight
+Search for flights departing tomorrow,search_flight
+What flights are available today?,search_flight
+Look up flights from Toronto to Vancouver,search_flight
+Any flights to Chicago this weekend?,search_flight
+Find flights from Boston to Miami,search_flight
+Show me the flight schedule for Seattle,search_flight
+Are there flights to Honolulu tonight?,search_flight
+Can you check flights to San Francisco?,search_flight
+I'm looking for flights to Amsterdam,search_flight
+List all flights going to Istanbul,search_flight
+What are my options for flights to Prague?,search_flight
+I need to cancel my flight reservation,cancel_booking
+Please cancel my booking,cancel_booking
+I want to cancel my flight,cancel_booking
+Can you cancel my ticket?,cancel_booking
+I'd like to cancel my reservation,cancel_booking
+Cancel my flight booking,cancel_booking
+I need to revoke my flight,cancel_booking
+Please void my ticket,cancel_booking
+I have to call off my booking,cancel_booking
+Cancel the flight I booked yesterday,cancel_booking
+Can you help me cancel my flight?,cancel_booking
+I wish to withdraw my flight reservation,cancel_booking
+Please remove my booking from the system,cancel_booking
+I'd like to annul my flight booking,cancel_booking
+You can call me Jane,set_name
+My name is Chen,set_name
+I'm called Alex,set_name
+Please refer to me as Anna,set_name
+Call me Sam,set_name
+I want you to remember my name is Mike,set_name
+"Hi, I am Lucy",set_name
+I'm known as Peter,set_name
+My friends call me Olivia,set_name
+Everyone calls me Emma,set_name
+Just call me Liam,set_name
+You may address me as Noah,set_name
+I'd like you to know my name is Sophia,set_name
+Hello,greet
+Good morning,greet
+"Hey, how's it going?",greet
+Good evening,greet
+Good afternoon,greet
+Hi,greet
+Hey,greet
+Greetings,greet
+What's up,greet
+Howdy,greet
+Nice to meet you,greet
+Hello there,greet
+Hey there,greet
+Can you tell me my name?,get_name
+What is my name?,get_name
+Do you remember my name?,get_name
+Who am I?,get_name
+Do you know who I am?,get_name
+Tell me my name,get_name
+What's my name?,get_name
+Remind me of my name,get_name
+Do you recall my name?,get_name
+Can you say my name?,get_name
+How are you?,smalltalk
+What's up?,smalltalk
+How's it going?,smalltalk
+Tell me a joke,smalltalk
+What's new?,smalltalk
+How have you been?,smalltalk
+What's going on?,smalltalk
+Entertain me,smalltalk
+Do you like music?,smalltalk
+What's your favorite color?,smalltalk
+Do you have any hobbies?,smalltalk
+Let's chat,smalltalk
+I'm bored,smalltalk
+Tell me something interesting,smalltalk
+What is the weather today?,question_answering
+How does a pump work?,question_answering
+Tell me the capital of France,question_answering
+What composer used sound mass,question_answering
+How do you play spades?,question_answering
+How does a dredge work?,question_answering
+"What does the name ""Meister"" mean in German",question_answering
+Who wrote 'Pride and Prejudice'?,question_answering
+What's the tallest mountain in the world?,question_answering
+How many continents are there?,question_answering
+What are stocks and bonds,question_answering
+Explain photosynthesis,question_answering
+What's the distance between Earth and Moon?,question_answering
+When was the Declaration of Independence signed?,question_answering
+What's the boiling point of water?,question_answering
+Who is the CEO of Tesla?,question_answering
+Can you cancel my flight to Paris?,cancel_booking
+Is it possible to cancel my reservation for tomorrow?,cancel_booking
+I need to call off my trip,cancel_booking
+Please help me cancel the ticket I booked,cancel_booking
+I'd like to stop my booking,cancel_booking
+Delete my flight reservation,cancel_booking
+Check flights to Rome on Friday,search_flight
+Are there any flights available to Athens?,search_flight
+Look for flights heading to Dublin,search_flight
+Find me all flights to Copenhagen,search_flight
+Any available seats to Oslo?,search_flight
+Search flights going to Vienna,search_flight
+Reserve a seat on a plane to Madrid,book_flight
+I want to fly to Stockholm next week,book_flight
+Help me schedule a flight to Lisbon,book_flight
+Can you assist me in booking a flight to Warsaw?,book_flight
+I'd like to arrange travel to Budapest,book_flight
+What's my flight number?,flight_status
+Can you tell me if my flight is delayed?,flight_status
+Is my flight departing on time?,flight_status
+Provide me with my flight status update,flight_status
+Any news on my flight to Helsinki?,flight_status
+Show my bookings,view_bookings
+Can I see my flight bookings?,view_bookings
+View all my bookings,view_bookings
+I want to check my reservations,view_bookings
+Show me my reserved flights,view_bookings
+Display my bookings.,view_bookings
+What reservations do I have?,view_bookings
+What features do you have?,discoverability
+What can you do?,discoverability
+What can you help me with?,discoverability
+Show me what you can do?,discoverability
+"What are your capabilities?,discoverability",discoverability
+"List your functions,discoverability",discoverability
+What commands do you understand?,discoverability
+What are you able to do?,discoverability
+Show me your features.,discoverability
+What services do you offer?,discoverability
+Help me understand what you can do.,discoverability
+What tasks can you perform?,discoverability
+Give me a list of your abilities.,discoverability
+Show available options.,discoverability
+What are my choices?,discoverability
+Display your commands.,discoverability
+what's the weather like in London,weather
+how's the weather today,weather
+tell me the temperature in Paris,weather
+is it going to rain today,weather
+what's the forecast for Tokyo,weather
+how cold is it outside,weather
+check weather in New York,weather
+show me the weather forecast,weather
+what's the current temperature,weather
+How's the weather in city ?,weather
